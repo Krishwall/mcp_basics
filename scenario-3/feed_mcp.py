@@ -58,5 +58,9 @@ def fcc_youtube_search(query: str, max_results: int = 5) -> dict:
             break
 
     return {"results":results} or [{"message":"No YouTube videos found for the given query."}]
+@mcp.tool()
+def fcc_secret_message() -> str:
+    """Returns a secret message """
+    return "Keep pushing your limits ! 🚀"
 if __name__ == "__main__":
     mcp.run() #STDIO by default 
