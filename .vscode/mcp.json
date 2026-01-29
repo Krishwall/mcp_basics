@@ -18,6 +18,15 @@
             ],
             "env": {}
         }
+        ,
+        "Feed-STDIO": {
+            "command": "D:/mcp_basics/.venv/Scripts/python.exe",
+            "args": [
+                "Scenario-3/feed_mcp.py",
+                
+            ],
+            "env": {}
+        }
     }
 }
 
